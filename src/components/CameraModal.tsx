@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect, useCallback } from 'react';
 import { createPortal } from 'react-dom';
-import { X, Camera, SwitchCamera, ImagePlus } from 'lucide-react';
+import { X, SwitchCamera, ImagePlus } from 'lucide-react';
 
 interface CameraModalProps {
   open: boolean;
