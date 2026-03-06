@@ -29,6 +29,7 @@ export default function CameraModal({ open, onCapture, onClose }: CameraModalPro
     stopCamera();
     setError(null);
 
+
     try {
       const stream = await navigator.mediaDevices.getUserMedia({
         video: { facingMode: facing, width: { ideal: 640 }, height: { ideal: 640 } },
