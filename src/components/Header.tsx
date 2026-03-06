@@ -72,7 +72,7 @@ function TrophyIcon({ size = 28 }: { size?: number }) {
   );
 }
 
-export default function Header({ title = 'Meu Álbum - Mundial FIFA 2026', subtitle }: HeaderProps) {
+export default function Header({ title = 'Meu Álbum - Copa do Mundo FIFA 2026', subtitle }: HeaderProps) {
   return (
     <header className="header">
       <div className="header-content">
